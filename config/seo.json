@@ -1,12 +1,12 @@
 {
-  "title": "Think Different, Think Organic | Conscious Coffee",
-  "titleTemplate": "%s | Conscious Coffee",
-  "description": "The best organic coffee in the city. Only at Conscious Coffee!",
+  "title": "The Casual Museum | Community Science Museum",
+  "titleTemplate": "%s | Community Science Museum",
+  "description": "Community Science Museum is based in the heart of Norway, and it includes a unique collection dedicated to discovering everything from ancient art to early African languages.",
   "openGraph": {
     "type": "website",
     "locale": "en",
-    "url": "https://conscious-coffee.vercel.app",
-    "site_name": "Think Different, Think Organic | Conscious Coffee"
+    "url": "https://communitysciencemuseum.vercel.app",
+    "site_name": "The Casual Museum | Community Science Museum"
   },
   "twitter": {
     "handle": "@nextjs",
