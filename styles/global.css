@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(348, 7%, 14%);
+
+  --primary: hsl(205, 97%, 64%);
+
+  --radius-smallest: 0.175rem;
+  --radius-small: 0.75rem;
+  --radius-medium: 1.5rem;
+  --radius-large: 150597px;
+
+  --shadow-smallest: 0px 4px 8px hsla(0, 0%, 0%, 0.12);
+  --shadow-small: 0 5px 10px hsla(0, 0%, 0%, 0.12);
+  --shadow-medium: 0 8px 30px hsla(0, 0%, 0%, 0.12);
+  --shadow-large: 0 30px 60px hsla(0, 0%, 0%, 0.12);
+
+  --font-primary: 'Raleway', BlinkMacSystemFont, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--primary);
+}
+
+html,
+body {
+  font: 400 16px/1.5 var(--font-primary);
+  background-color: var(--background);
+  color: var(--foreground);
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  font-weight: 600;
+  color: currentColor;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline currentColor;
+}
+
+strong {
+  color: var(--primary);
+}
+
+h1, h2 {
+  font-weight: 800;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.debug {
+  outline: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--background);
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo svg {
+  margin-right: 10px;
+}
+
+.logo path {
+  fill: var(--primary)
+}
+
+.logo rect {
+  fill: var(--foreground)
+}
+
+
+/* Box shadow */
+.shadow-smallest {
+    box-shadow: var(--shadow-smallest);
+}
+
+.shadow-small {
+    box-shadow: var(--shadow-small);
+}
+
+.shadow-medium {
+    box-shadow: var(--shadow-medium);
+}
+
+.shadow-large {
+    box-shadow: var(--shadow-large);
+}
+
+
+/* Border radius */
+.rounded-smallest {
+  border-radius: var(--radius-smallest);
+}
+
+.rounded-small {
+  border-radius: var(--radius-small);
+}
+
+.rounded-medium {
+  border-radius: var(--radius-medium);
+}
+
+.rounded-large {
+  border-radius: var(--radius-large);
+}
+
+
+/* Button */
+.button {
+  font-family: var(--font-primary);
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: var(--radius-smallest);
+  border: 5px solid var(--foreground);
+  padding: 12px 24px;
+  background-color: transparent;
+  color: var(--foreground);
+}
+
+.button:hover {
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.9s ease-in-out;
+  color: var(--background);
+  background-color: var(--foreground);
+}
+
+.button.light {
+  color: var(--background);
+  border-color: var(--background);
+}
+
+.button.light:hover {
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+.button.primary {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.button.primary:hover {
+  color: var(--background);
+  background-color: var(--primary);
+}
+
+
+/* Section */
+.section {
+  padding: 25vh 3.75rem;
+  font-family: var(--font-secondary);
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 960px;
+}
