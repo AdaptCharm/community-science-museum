@@ -189,12 +189,20 @@ p {
 
 /* Section */
 .section {
-  padding: 15vh 1.25rem;
+  padding: 15vh 1.25rem 0;
+}
+
+.section:last-child {
+  padding-bottom: 15vh;
 }
 
 @media (min-width: 768px) {
   .section {
-    padding: 30vh 1.25rem;
+    padding: 30vh 1.25rem 0;
+  }
+
+  .section:last-child {
+    padding-bottom: 30vh;
   }
 }
 
@@ -221,6 +229,10 @@ p {
 @media (min-width: 768px) {
   .items-md-column {
     flex-direction: row;
+  }
+
+  .order-md-2 {
+    order: 2;
   }
 }
 
