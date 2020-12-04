@@ -1,5 +1,5 @@
 .footer {
-  padding: 8vh 20px;
+  padding: 5vh 1.25rem;
   position: relative;
   z-index: 1;
   background-color: hsl(0, 0%, 0%);
@@ -21,12 +21,12 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 10vh 0 30vh
+  margin: 10vh auto 30vh;
 }
 
 @media (min-width: 480px) {
   .section:first-child {
-    align-items: center;
+    max-width: 430px;
   }
 }
 
