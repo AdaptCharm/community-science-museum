@@ -44,10 +44,6 @@
   }
 }
 
-.link {
-  font-family: var(--font-primary);
-}
-
 .link:not(:first-child) {
   margin-top: 46px;
 }
