@@ -1,10 +1,11 @@
 import { Layout } from '@components/core'
-import { Hero } from '@components/ui'
+import { Hero, Aim } from '@components/ui'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <Aim />
     </>
   )
 }
