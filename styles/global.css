@@ -193,7 +193,7 @@ p {
 
 /* Section */
 .section {
-  padding: 30vh 1.25rem 0;
+  padding: 15vh 1.25rem 0;
 }
 
 .section:last-child {
@@ -201,6 +201,10 @@ p {
 }
 
 @media (min-width: 768px) {
+  .section {
+    padding: 30vh 1.25rem 0;
+  }
+
   .section:last-child {
     padding-bottom: 30vh;
   }
