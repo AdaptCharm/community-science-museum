@@ -8,7 +8,7 @@ const Aim: FC = () => {
     <section className={`${a.aim} section`}>
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
-          <div className="mb-4 mb-md-none">
+          <div className="mb-8 mb-md-none">
             <h1 className="text-white">
               Our <strong>Aim</strong>
             </h1>
