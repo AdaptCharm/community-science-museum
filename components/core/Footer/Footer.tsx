@@ -54,7 +54,7 @@ const Footer: FC = () => {
               Privacy Policy
             </a>
           </div>
-          <a href="/" className="logo" aria-label="Logo">
+          <a href="/" className="logo text-white" aria-label="Logo">
             <Logo size={8} />
             Community Science Museum
           </a>
