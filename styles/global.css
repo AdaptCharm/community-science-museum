@@ -94,7 +94,6 @@ p {
 .logo {
   display: flex;
   align-items: center;
-  color: var(--background);
 }
 
 .logo:hover {
