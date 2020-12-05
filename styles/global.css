@@ -48,7 +48,7 @@ a:hover {
 }
 
 strong {
-  color: var(--primary);
+  color: hsl(205deg 100% 50%);
 }
 
 h1, h2 {
