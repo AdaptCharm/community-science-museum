@@ -7,7 +7,7 @@ const Aim: FC = () => {
   return (
     <section className={`${a.aim} section`}>
       <div className="inner">
-        <div className="flex items-center items-md-column space-around">
+        <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-md-4">
             <h1 className="text-white">
               Our <strong>Aim</strong>

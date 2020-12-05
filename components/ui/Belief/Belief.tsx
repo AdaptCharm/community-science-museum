@@ -7,7 +7,7 @@ const Belief: FC = () => {
   return (
     <section className={`${b.belief} section`}>
       <div className="inner">
-        <div className="flex items-center items-md-column space-around">
+        <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-md-4 order-md-2">
             <h1 className="text-white">
               The <strong>Belief</strong>
