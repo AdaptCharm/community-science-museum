@@ -242,6 +242,10 @@ p {
   align-items: center;
 }
 
+.gap-8 {
+  gap: 2.25rem;
+}
+
 
 /* Spacing */
 .mb-4 {
