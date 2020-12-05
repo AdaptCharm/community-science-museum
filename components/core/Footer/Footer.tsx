@@ -11,12 +11,12 @@ const Footer: FC = () => {
           <h2 className="text-white">
             Internships
           </h2>
-          <p className="text-white">
+          <p className="text-white mb-4">
             Are you interested in working in a museum? Do you enjoy 
             the fun and excitement of sharing the wonders of nature 
             with people?
           </p>
-          <p className="text-white">
+          <p className="text-white mb-4">
             Well you could be just the right person to enjoy an 
             internship at the museum.
           </p>

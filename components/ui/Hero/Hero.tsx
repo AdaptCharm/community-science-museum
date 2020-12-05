@@ -9,7 +9,7 @@ const Hero: FC = () => {
         <h1 className="text-white">
           Explore <strong>Together</strong>
         </h1>
-        <p className="text-white">
+        <p className="text-white mb-4">
           Come join us at the Community Science Museum where we’re committed 
           to making science accessible to all.
         </p>
