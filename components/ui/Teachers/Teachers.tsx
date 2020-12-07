@@ -4,9 +4,9 @@ const Teachers: FC = () => {
   return (
     <section className="section bg-white">
       <div className="inner">
-        <h1 className="text-center">
+        <h2 className="text-center">
           For <strong>Teachers</strong>
-        </h1>
+        </h2>
         <div className="flex flex-col items-center gap-8 mb-8">
           <div className="card">
             <p>

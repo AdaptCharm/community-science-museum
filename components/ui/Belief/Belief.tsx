@@ -7,9 +7,9 @@ const Belief: FC = () => {
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-8 mb-md-none order-md-2">
-            <h1 className="text-white">
+            <h2 className="text-white">
               The <strong>Belief</strong>
-            </h1>
+            </h2>
             <p className="text-white">
               We believe science should not be confined to the textbook, 
               but brought to live through exhibits. This is why we have 

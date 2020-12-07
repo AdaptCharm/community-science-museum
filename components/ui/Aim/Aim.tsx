@@ -7,9 +7,9 @@ const Aim: FC = () => {
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-8 mb-md-none">
-            <h1 className="text-white">
+            <h2 className="text-white">
               Our <strong>Aim</strong>
-            </h1>
+            </h2>
             <p className="text-white">
               The aim of our museum is to create a space where everyone can 
               experience the wonders of our discoveries and perhaps even ignite 
