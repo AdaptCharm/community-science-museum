@@ -16,7 +16,7 @@ const Aim: FC = () => {
               a lifelong passion to continue the exploration of the world around us.
             </p>
           </div>
-          <div>
+          <div className="flex">
             <Image 
               src="/aim.jpg"
               width="243"

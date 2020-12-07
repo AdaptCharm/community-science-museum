@@ -20,7 +20,7 @@ const Belief: FC = () => {
               life at night when everyone’s gone home).
             </p>
           </div>
-          <div>
+          <div className="flex">
             <Image 
               src="/belief.jpg"
               width="243"
