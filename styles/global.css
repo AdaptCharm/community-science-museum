@@ -155,7 +155,6 @@ p {
 
 /* Button */
 .button {
-  font-family: var(--font-primary);
   font-weight: 800;
   font-size: 18px;
   border-radius: var(--radius-smallest);
@@ -163,6 +162,9 @@ p {
   padding: 12px 24px;
   background-color: transparent;
   color: var(--foreground);
+  display: inline-flex;
+  justify-content: center;
+  min-width: 180px;
 }
 
 .button:hover {
@@ -196,7 +198,11 @@ p {
 
 
 /* Section */
-.section {
+.section:first-child {
+  padding: 30vh 1.25rem 0;
+}
+
+.section:not(:first-child) {
   padding: 15vh 1.25rem 0;
 }
 
@@ -221,6 +227,16 @@ p {
 
 
 /* Helpers */
+.d-none {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .d-md-flex {
+    display: flex;
+  }
+}
+
 .flex {
   display: flex;
 }
