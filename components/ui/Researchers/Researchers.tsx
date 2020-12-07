@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
-const Involved: FC = () => {
+const Researchers: FC = () => {
   return (
     <section className="section bg-white">
       <div className="inner">
@@ -40,4 +40,4 @@ const Involved: FC = () => {
   )
 }
 
-export default Involved
+export default Researchers
