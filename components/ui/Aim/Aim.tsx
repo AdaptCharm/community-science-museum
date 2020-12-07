@@ -1,11 +1,9 @@
 import { FC } from 'react'
 import Image from 'next/image'
 
-import a from './Aim.module.css'
-
 const Aim: FC = () => {
   return (
-    <section className={`${a.aim} section`}>
+    <section className="section bg-black">
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-8 mb-md-none">

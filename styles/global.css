@@ -71,22 +71,26 @@ p {
   max-width: 43.5ch;
 }
 
-.button:hover {
-  cursor: pointer;
-}
-
 .debug {
   outline: 1px solid rgba(255, 0, 0, 0.3);
 }
 
 
-/* Text */
+/* Text and background */
 .text-white {
   color: var(--background);
 }
 
 .text-center {
   text-align: center;
+}
+
+.bg-white {
+  background-color: hsl(255, 255%, 255%);
+}
+
+.bg-black {
+  background-color: hsl(0, 0%, 0%);
 }
 
 
@@ -162,6 +166,7 @@ p {
 }
 
 .button:hover {
+  cursor: pointer;
   text-decoration: none;
   opacity: 0.9;
   transition: opacity 0.9s ease-in-out;
