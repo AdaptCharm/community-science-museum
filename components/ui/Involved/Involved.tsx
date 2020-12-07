@@ -8,7 +8,7 @@ const Involved: FC = () => {
         <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-8 mb-md-none order-md-2">
             <h1 className="text-grey">
-              Get <strong>Involved</strong>
+              Researchers
             </h1>
             <p className="text-grey mb-4">
               We believe science should not be confined to the textbook, 
@@ -21,9 +21,9 @@ const Involved: FC = () => {
             </p>
             <a
               className="button dark"
-              href="/about"
+              href="/get-involved"
             >
-              Apply Now
+              Get Involved
             </a>
           </div>
           <div className="d-none d-md-flex">
