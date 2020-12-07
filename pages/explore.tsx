@@ -1,9 +1,13 @@
 import { Layout } from '@components/core'
-import { Explore } from '@components/ui'
+import { Kids, Teachers, Involved } from '@components/ui'
 
 export default function E() {
   return (
-    <Explore />
+    <>
+      <Kids />
+      <Teachers />
+      <Involved />
+    </>
   )
 }
 

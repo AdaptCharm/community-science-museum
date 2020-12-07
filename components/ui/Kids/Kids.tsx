@@ -1,10 +1,8 @@
 import { FC } from 'react'
 
-import e from './Explore.module.css'
-
-const Explore: FC = () => {
+const Kids: FC = () => {
   return (
-    <section className={`${e.explore} section`}>
+    <section className="section bg-white">
       <div className="inner">
         <h1 className="text-center">
           For <strong>Kids</strong>
@@ -51,4 +49,4 @@ const Explore: FC = () => {
   )
 }
 
-export default Explore
+export default Kids
