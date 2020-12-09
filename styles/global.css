@@ -307,12 +307,12 @@ p {
 }
 
 @media (min-width: 768px) {
-  .grid-cols-md-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .grid-cols-md-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .gap-md-8 {
-    gap: 2.25rem;
+  .grid-cols-md-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -320,9 +320,6 @@ p {
   gap: 1.25rem;
 }
 
-.gap-8 {
-  gap: 2.25rem;
-}
 
 
 
@@ -332,12 +329,12 @@ p {
   margin-top: 0.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1.5rem;
+.mt-4 {
+  margin-top: 1.5rem;
 }
 
-.mb-8 {
-  margin-bottom: 2.5rem;
+.mb-4 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-20 {
@@ -363,11 +360,4 @@ p {
 .border-x-0 {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-}
-
-/* Card */
-.card {
-  padding: 1.25rem;
-  border-radius: var(--radius-smallest);
-  box-shadow: var(--shadow-small);
 }
