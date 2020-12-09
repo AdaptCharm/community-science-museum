@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 const Teachers: FC = () => {
   return (
-    <section className="section bg-white">
+    <section className="section">
       <div className="inner">
         <h2 className="text-center">
           For <strong>Teachers</strong>

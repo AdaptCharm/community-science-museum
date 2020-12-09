@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Researchers: FC = () => {
   return (
-    <section className="section bg-white">
+    <section className="section">
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
           <div className="mb-8 mb-md-none order-md-2">

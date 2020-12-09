@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const News: FC = () => {
   return (
-    <section className="section bg-white">
+    <section className="section">
       <div className="inner">
         <h1 className="text-center">
           Special <strong>Events</strong>
