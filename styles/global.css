@@ -227,26 +227,12 @@ p {
 
 
 /* Section */
-.section:first-child {
-  padding: 30vh 1.25rem 0;
-}
-
 .section {
-  padding: 15vh 1.25rem 0;
+  padding: 8rem 1.5rem 0;
 }
 
 .section:last-child {
-  padding-bottom: 15vh;
-}
-
-@media (min-width: 768px) {
-  .section {
-    padding: 30vh 1.25rem 0;
-  }
-
-  .section:last-child {
-    padding-bottom: 30vh;
-  }
+  padding-bottom: 8rem;
 }
 
 .inner {
@@ -319,9 +305,6 @@ p {
 .gap-4 {
   gap: 1.25rem;
 }
-
-
-
 
 
 /* Spacing */
