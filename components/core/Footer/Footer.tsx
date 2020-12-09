@@ -32,7 +32,7 @@ const Footer: FC = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className={`${f.link} text-white`}
+              className="link text-white"
               href="/contact"
             >
               Contact
@@ -40,7 +40,7 @@ const Footer: FC = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className={`${f.link} text-white`}
+              className="link text-white"
               href="/about"
             >
               About
@@ -48,7 +48,7 @@ const Footer: FC = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className={`${f.link} text-white`}
+              className="link text-white"
               href="/privacy-policy"
             >
               Privacy Policy

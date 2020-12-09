@@ -35,7 +35,6 @@ const Navbar: FC = () => {
 
   return (
     <div className={n.navbar}>
-      
       <Link href="/">
         <a className="logo" aria-label="Logo">
           <Logo size={8} />

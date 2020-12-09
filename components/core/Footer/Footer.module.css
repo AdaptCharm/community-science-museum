@@ -57,7 +57,3 @@
     order: 0;
   }
 }
-
-.link + .link {
-  margin-left: 3rem;
-}

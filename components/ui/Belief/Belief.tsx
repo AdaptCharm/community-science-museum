@@ -6,7 +6,7 @@ const Belief: FC = () => {
     <section className="section bg-black">
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
-          <div className="mb-8 mb-md-none order-md-2">
+          <div className="mb-20 mb-md-none order-md-2">
             <h2 className="text-white">
               The <strong>Belief</strong>
             </h2>

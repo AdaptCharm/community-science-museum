@@ -4,7 +4,7 @@
   --background: hsl(0, 0%, 100%);
   --foreground: hsl(348, 7%, 14%);
 
-  --primary: hsl(205, 97%, 64%);
+  --primary: hsl(205, 100%, 50%);
 
   --radius-smallest: 0.175rem;
   --radius-small: 0.75rem;
@@ -47,8 +47,12 @@ a:hover {
   text-decoration: underline currentColor;
 }
 
+.link + .link {
+  margin-left: 3rem;
+}
+
 strong {
-  color: hsl(205deg 100% 50%);
+  color: var(--primary);
 }
 
 h1, h2 {
@@ -81,8 +85,33 @@ p {
   color: var(--background);
 }
 
+.text-primary {
+  color: var(--primary);
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-decoration-none:hover {
+  text-decoration: none;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.weight-800 {
+  font-weight: 800;
 }
 
 .bg-white {
@@ -119,19 +148,19 @@ p {
 
 /* Box shadow */
 .shadow-smallest {
-    box-shadow: var(--shadow-smallest);
+  box-shadow: var(--shadow-smallest);
 }
 
 .shadow-small {
-    box-shadow: var(--shadow-small);
+  box-shadow: var(--shadow-small);
 }
 
 .shadow-medium {
-    box-shadow: var(--shadow-medium);
+  box-shadow: var(--shadow-medium);
 }
 
 .shadow-large {
-    box-shadow: var(--shadow-large);
+  box-shadow: var(--shadow-large);
 }
 
 
@@ -231,18 +260,28 @@ p {
   display: none;
 }
 
+.max-w-none {
+  max-width: none;
+}
+
 @media (min-width: 768px) {
   .d-md-flex {
     display: flex;
   }
 }
 
+
+/* Flex and grid */
 .flex {
   display: flex;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
@@ -263,12 +302,36 @@ p {
   align-items: center;
 }
 
+.grid {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .grid-cols-md-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .gap-md-8 {
+    gap: 2.25rem;
+  }
+}
+
+.gap-4 {
+  gap: 1.25rem;
+}
+
 .gap-8 {
   gap: 2.25rem;
 }
 
 
+
+
 /* Spacing */
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1.5rem;
 }
@@ -277,10 +340,18 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.mb-20 {
+  margin-bottom: 6rem;
+}
+
 @media (min-width: 768px) {
   .mb-md-none {
     margin-bottom: 0;
   }
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 
@@ -289,6 +360,10 @@ p {
   border: 5px solid #BBD8F6 !important; /* z-index for images */
 }
 
+.border-x-0 {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
 /* Card */
 .card {

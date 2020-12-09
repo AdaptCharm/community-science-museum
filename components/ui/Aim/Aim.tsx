@@ -6,7 +6,7 @@ const Aim: FC = () => {
     <section className="section bg-black">
       <div className="inner">
         <div className="flex flex-col flex-md-row items-center space-around">
-          <div className="mb-8 mb-md-none">
+          <div className="mb-20 mb-md-none">
             <h2 className="text-white">
               Our <strong>Aim</strong>
             </h2>
