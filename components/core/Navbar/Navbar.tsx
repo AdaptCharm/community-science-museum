@@ -37,9 +37,7 @@ const Navbar: FC = () => {
   const overlay = pathname === '/' ? { backgroundColor: 'hsla(0, 0%, 0%, 70%)', color: 'white'} : { backgroundColor: 'hsla(0, 0%, 100%, 0.8)', color: 'hsl(348, 7%, 14%)' }
 
   // Close mobile menu on route change.
-  Router.events.on('routeChangeStart', () => {
-    setMobileNavShown(false)
-  });
+  Router.events.on('routeChangeStart', () => { setMobileNavShown(false) })
 
   return (
     <div className={n.navbar}>
