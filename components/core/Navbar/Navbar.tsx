@@ -1,9 +1,8 @@
 import { FC, useState } from 'react'
-import { useRouter } from 'next/router'
+import { Router, useRouter } from 'next/router'
 import Link from 'next/link'
 import { Logo } from '@components/ui'
-import ArrowLeft from '@components/icons/ArrowLeft'
-import ArrowRight from '@components/icons/ArrowRight'
+import { Menu, Close } from '@components/icons'
 import n from './Navbar.module.css'
 
 interface Props {
@@ -29,9 +28,18 @@ const ActiveLink: FC<Props> = ({ href, children }) => {
 }
 
 const Navbar: FC = () => {
+  // Toggle on/off mobile menu.
   const [mobileNavShown, setMobileNavShown] = useState(false)
-
   const toggle = () => setMobileNavShown(!mobileNavShown)
+
+  // Switch colors of mobile menu overlay based on route.
+  const { pathname } = useRouter()
+  const overlay = pathname === '/' ? { backgroundColor: 'hsla(0, 0%, 0%, 70%)', color: 'white'} : { backgroundColor: 'hsla(0, 0%, 100%, 0.8)', color: 'hsl(348, 7%, 14%)' }
+
+  // Close mobile menu on route change.
+  Router.events.on('routeChangeStart', () => {
+    setMobileNavShown(false)
+  });
 
   return (
     <div className={n.navbar}>
@@ -41,14 +49,14 @@ const Navbar: FC = () => {
           Community Science Museum
         </a>
       </Link>
-      <span className={n.toggle} onClick={toggle}>
+      <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} onClick={toggle}>
         {mobileNavShown == true ? (
-          <ArrowLeft />
+          <Close />
         ) : (
-          <ArrowRight />
+          <Menu />
         )}
       </span>
-      <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`}>
+      <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`} style={overlay}>
         <ActiveLink href="/explore" className={n.link}>Explore</ActiveLink>
         <ActiveLink href="/events" className={n.link}>Events</ActiveLink>
         <ActiveLink href="/visit" className={n.link}>Visit</ActiveLink>
