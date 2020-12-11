@@ -49,7 +49,7 @@ const Navbar: FC = () => {
         </a>
       </Link>
       <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} style={ mobileNavShown ? { position: 'fixed', right: '1.25rem' } : {} } onClick={toggle}>
-        {mobileNavShown == true ? (
+        {mobileNavShown ? (
           <Close />
         ) : (
           <Menu />
