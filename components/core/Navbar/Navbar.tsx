@@ -47,7 +47,7 @@ const Navbar: FC = () => {
           Community Science Museum
         </a>
       </Link>
-      <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} onClick={toggle}>
+      <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} style={ mobileNavShown ? { position: 'fixed', right: '1.25rem' } : {} } onClick={toggle}>
         {mobileNavShown == true ? (
           <Close />
         ) : (
