@@ -44,7 +44,8 @@ const Navbar: FC = () => {
       <Link href="/">
         <a className="logo" aria-label="Logo">
           <Logo size={8} />
-          Community Science Museum
+          <span className="d-md-none">CSM</span>
+          <span className="d-none d-md-block">Community Science Museum</span>
         </a>
       </Link>
       <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} style={ mobileNavShown ? { position: 'fixed', right: '1.25rem' } : {} } onClick={toggle}>

@@ -238,14 +238,22 @@ p {
   display: none;
 }
 
-.max-w-none {
-  max-width: none;
-}
-
 @media (min-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
+  
+  .d-md-block {
+    display: block;
+  }
+
   .d-md-flex {
     display: flex;
   }
+}
+
+.max-w-none {
+  max-width: none;
 }
 
 
