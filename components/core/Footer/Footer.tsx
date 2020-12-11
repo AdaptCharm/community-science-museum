@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Logo } from '@components/ui'
+import { FooterLogo } from '@components/icons'
 import f from './Footer.module.css'
 
 const Footer: FC = () => {
@@ -55,7 +55,7 @@ const Footer: FC = () => {
             </a>
           </div>
           <a href="/" className="logo text-white" aria-label="Logo">
-            <Logo size={8} />
+            <FooterLogo size={8} />
             Community Science Museum
           </a>
         </div>

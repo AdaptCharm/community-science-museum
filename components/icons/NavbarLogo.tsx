@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-const Logo = ({ className = '', size = 0, ...props}) => {
+const NavbarLogo = ({ className = '', size = 0, ...props}) => {
   const { pathname } = useRouter()
   const switchSvgColor = pathname === '/' ? 'hsl(0, 0%, 100%)' : 'hsl(348, 7%, 14%)'
 
@@ -21,4 +21,4 @@ const Logo = ({ className = '', size = 0, ...props}) => {
   )
 }
 
-export default Logo
+export default NavbarLogo

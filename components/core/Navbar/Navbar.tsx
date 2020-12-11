@@ -1,8 +1,7 @@
 import { FC, useState } from 'react'
 import { Router, useRouter } from 'next/router'
 import Link from 'next/link'
-import { Logo } from '@components/ui'
-import { Menu, Close } from '@components/icons'
+import { NavbarLogo, NavbarHamburger, NavbarClose } from '@components/icons'
 import n from './Navbar.module.css'
 
 interface Props {
@@ -43,16 +42,16 @@ const Navbar: FC = () => {
     <div className={n.navbar}>
       <Link href="/">
         <a className="logo" aria-label="Logo">
-          <Logo size={8} />
+          <NavbarLogo size={8} />
           <span className="d-md-none">CSM</span>
           <span className="d-none d-md-block">Community Science Museum</span>
         </a>
       </Link>
       <span className={`${n.toggle} ${mobileNavShown ? n.pulseIn : n.pulseOut}`} style={ mobileNavShown ? { position: 'fixed', right: '1.25rem' } : {} } onClick={toggle}>
         {mobileNavShown ? (
-          <Close />
+          <NavbarClose />
         ) : (
-          <Menu />
+          <NavbarHamburger />
         )}
       </span>
       <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`} style={ mobileNavShown ? overlay : {} }>

@@ -1,4 +1,4 @@
-const Menu = ({ ...props }) => {
+const NavbarHamburger = ({ ...props }) => {
   return (
     <svg
       width="24"
@@ -13,4 +13,4 @@ const Menu = ({ ...props }) => {
   )
 }
 
-export default Menu
+export default NavbarHamburger

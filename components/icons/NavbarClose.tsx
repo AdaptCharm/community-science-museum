@@ -1,4 +1,4 @@
-const Close = ({ ...props }) => {
+const NavbarClose = ({ ...props }) => {
   return (
     <svg
       width="24"
@@ -13,4 +13,4 @@ const Close = ({ ...props }) => {
   )
 }
 
-export default Close
+export default NavbarClose
