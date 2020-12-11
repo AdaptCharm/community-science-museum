@@ -55,7 +55,7 @@ const Navbar: FC = () => {
           <Menu />
         )}
       </span>
-      <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`} style={overlay}>
+      <nav className={`${n.nav} ${mobileNavShown ? n.active : ''}`} style={ mobileNavShown ? overlay : {} }>
         <ActiveLink href="/explore" className={n.link}>Explore</ActiveLink>
         <ActiveLink href="/events" className={n.link}>Events</ActiveLink>
         <ActiveLink href="/visit" className={n.link}>Visit</ActiveLink>
