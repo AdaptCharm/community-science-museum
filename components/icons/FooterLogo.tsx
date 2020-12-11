@@ -1,9 +1,4 @@
-import { useRouter } from 'next/router'
-
 const FooterLogo = ({ className = '', size = 0, ...props}) => {
-  const { pathname } = useRouter()
-  const switchSvgColor = pathname === '/' ? 'hsl(0, 0%, 100%)' : 'hsl(348, 7%, 14%)'
-
   const width = 512
   const height = 481.09
   
