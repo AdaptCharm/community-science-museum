@@ -137,14 +137,6 @@ p {
   margin-right: 10px;
 }
 
-.logo path {
-  fill: var(--primary)
-}
-
-.logo rect {
-  fill: var(--foreground)
-}
-
 
 /* Box shadow */
 .shadow-smallest {
