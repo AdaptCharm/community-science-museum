@@ -22,7 +22,7 @@ const Teachers: FC = () => {
           </p>
           <a
             className="button dark mt-4"
-            href="/contact"
+            href="/visit"
           >
             Get in Touch
           </a>
