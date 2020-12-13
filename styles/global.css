@@ -93,6 +93,10 @@ p {
   color: var(--primary);
 }
 
+.text-primary-dark {
+  color: hsl(205, 100%, 31%);
+}
+
 .text-center {
   text-align: center;
 }

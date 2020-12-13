@@ -13,14 +13,15 @@ const News: FC = () => {
             <div className="flex-shrink-0">
               <Image 
                 src="/lab.jpg"
-                width="450"
-                height="250"
+                alt="Lab"
+                width="1280"
+                height="851"
                 layout="responsive"
                 className="rounded-small border-x-0"
               />
             </div>
             <div className="flex flex-col bg-white rounded-small p-6">
-              <p className="text-primary text-sm weight-600">
+              <p className="text-primary-dark text-sm weight-600">
                 Article
               </p>
               <p className="mt-2 weight-800">
@@ -38,14 +39,15 @@ const News: FC = () => {
             <div className="flex-shrink-0">
               <Image 
                 src="/entertainment.jpg"
-                width="450"
-                height="250"
+                alt="Entertainment"
+                width="1920"
+                height="1277"
                 layout="responsive"
                 className="rounded-small border-x-0"
               />
             </div>
             <div className="flex flex-col bg-white rounded-small p-6">
-              <p className="text-primary text-sm weight-600">
+              <p className="text-primary-dark text-sm weight-600">
                 Article
               </p>
               <p className="mt-2 weight-800">
@@ -63,14 +65,15 @@ const News: FC = () => {
             <div className="flex-shrink-0">
               <Image 
                 src="/brain.jpg"
-                width="450"
-                height="250"
+                alt="Brain"
+                width="1920"
+                height="1272"
                 layout="responsive"
                 className="rounded-small border-x-0"
               />
             </div>
             <div className="flex flex-col bg-white rounded-small p-6">
-              <p className="text-primary text-sm weight-600">
+              <p className="text-primary-dark text-sm weight-600">
                 Article
               </p>
               <p className="mt-2 weight-800">
