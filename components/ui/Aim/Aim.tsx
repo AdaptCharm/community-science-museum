@@ -20,8 +20,8 @@ const Aim: FC = () => {
             <Image 
               src="/aim.jpg"
               alt="Our aim"
-              width="243"
-              height="270"
+              width="640"
+              height="427"
               className="border rounded-smallest"
             />
           </div>
