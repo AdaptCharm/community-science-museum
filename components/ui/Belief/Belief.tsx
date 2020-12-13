@@ -23,6 +23,7 @@ const Belief: FC = () => {
           <div className="flex">
             <Image 
               src="/belief.jpg"
+              alt="The belief"
               width="243"
               height="270"
               className="border rounded-smallest"

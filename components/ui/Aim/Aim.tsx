@@ -19,6 +19,7 @@ const Aim: FC = () => {
           <div className="flex">
             <Image 
               src="/aim.jpg"
+              alt="Our aim"
               width="243"
               height="270"
               className="border rounded-smallest"
