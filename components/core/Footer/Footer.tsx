@@ -22,36 +22,30 @@ const Footer: FC = () => {
           </p>
           <a
             className="button light"
-            href="/about"
+            href="/visit"
           >
-            Apply Now
+            Visit Now
           </a>
         </div>
         <div className={f.section}>
           <div className={f.nav}>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
               className="link text-white"
-              href="/contact"
+              href="/"
             >
-              Contact
+              Home
             </a>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
               className="link text-white"
-              href="/about"
+              href="/events"
             >
-              About
+              Special Events
             </a>
             <a
-              target="_blank"
-              rel="noopener noreferrer"
               className="link text-white"
-              href="/privacy-policy"
+              href="/get-involved"
             >
-              Privacy Policy
+              Get Involved
             </a>
           </div>
           <a href="/" className="logo text-white" aria-label="Logo">
