@@ -8,7 +8,7 @@ const News: FC = () => {
         <h1 className="text-center">
           Special <strong>Events</strong>
         </h1>
-        <div className="grid grid-cols-md-3 gap-4">
+        <div className="grid grid-cols-md-3 gap-8">
           <a href="#" className="flex flex-col shadow-small rounded-small weight-400 text-decoration-none">
             <div className="flex-shrink-0">
               <Image 
