@@ -75,6 +75,10 @@ p {
   max-width: 43.5ch;
 }
 
+.list-style-none {
+  list-style-type: none;
+}
+
 .debug {
   outline: 1px solid rgba(255, 0, 0, 0.3);
 }
@@ -304,6 +308,14 @@ p {
 
 .gap-4 {
   gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2.25rem;
+}
+
+.gap-16 {
+  gap: 4.25rem;
 }
 
 
