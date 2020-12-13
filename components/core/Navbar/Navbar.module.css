@@ -16,7 +16,7 @@
 }
 
 .current {
-  color: var(--primary);
+  color: hsl(205, 100%, 41%);
 }
 
 .active {
